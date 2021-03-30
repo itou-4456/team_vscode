@@ -30,6 +30,5 @@ def gekkyu():
     time = int(time)
     gekkyu = zikyu * time
     return render_template("gekkyu.html", gekkyu=gekkyu)
-
 if __name__ == "__main__":
     app.run(debug=True)
